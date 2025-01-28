@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 103);        }
+
+.card {
+    width: 30vw;
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 60%;
+}
+
+.card .form {
+    display: flex;
+    gap: 10px;
+}
+
+.card .input {
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid rgba(73, 73, 255, 0.958);
+    outline: none;
+}
+
+.form .button {
+    background: rgba(73, 73, 255, 0.958);
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.todo {
+    background: lightblue;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo .button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.todos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.todo-title {
+    display: flex;
+    gap: 10px;
+}
